@@ -25,3 +25,8 @@ You might get a warning that the identity of the remote computer cannot be verif
 
 Now you should be logged in and looking at a normal screen.
 
+PS C:\data> aws s3 cp s3://cmgp-sfm/2019-09_OBX/images/jpg/2019_0913_ppk-photo-locations-mbase-GP113712.txt .
+download: s3://cmgp-sfm/2019-09_OBX/images/jpg/2019_0913_ppk-photo-locations-mbase-GP113712.txt to .\2019_0913_ppk-photo
+-locations-mbase-GP113712.txt
+
+PS C:\data> aws s3 cp --recursive s3://cmgp-sfm/2019-09_OBX d:
