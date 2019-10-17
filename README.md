@@ -30,3 +30,8 @@ download: s3://cmgp-sfm/2019-09_OBX/images/jpg/2019_0913_ppk-photo-locations-mba
 -locations-mbase-GP113712.txt
 
 PS C:\data> aws s3 cp --recursive s3://cmgp-sfm/2019-09_OBX d:
+
+### Sync local file with S3 directory
+
+`aws s3 sync . s3://cmgp-sfm/dir_name/`
+
